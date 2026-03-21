@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>El Juego de la Vida</h1>
+        <canvas id="grid"></canvas>
+        <div class="controls">
+            <button id="startBtn">Iniciar / Pausar</button>
+            <button id="randomBtn">Aleatorio</button>
+            <button id="clearBtn">Limpiar</button>
+            <span id="generationCount">Generación: 0</span>
+        </div>
+        <p class="rules">Haz clic en la cuadrícula para crear vida manualmente.</p>
+    </div>
+    <script src="conway.js"></script>
+</body>
+</html>
